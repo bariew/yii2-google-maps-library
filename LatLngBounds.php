@@ -4,11 +4,11 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\google\maps;
+namespace bariew\google\maps;
 
 
-use dosamigos\google\maps\overlays\Marker;
-use dosamigos\google\maps\overlays\Polygon;
+use bariew\google\maps\overlays\Marker;
+use bariew\google\maps\overlays\Polygon;
 use yii\base\InvalidParamException;
 use yii\base\Object;
 use yii\helpers\ArrayHelper;
@@ -21,7 +21,7 @@ use yii\helpers\ArrayHelper;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package bariew\google\maps
  */
 class LatLngBounds extends Object
 {

@@ -4,9 +4,9 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\google\maps\services;
+namespace bariew\google\maps\services;
 
-use dosamigos\google\maps\ClientAbstract;
+use bariew\google\maps\ClientAbstract;
 use yii\helpers\ArrayHelper;
 use Yii;
 
@@ -19,7 +19,7 @@ use Yii;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package bariew\google\maps
  */
 class DirectionsClient extends ClientAbstract
 {

@@ -7,8 +7,8 @@
 namespace extensions\google\controls\maps;
 
 
-use dosamigos\google\maps\ObjectAbstract;
-use dosamigos\google\maps\OptionsTrait;
+use bariew\google\maps\ObjectAbstract;
+use bariew\google\maps\OptionsTrait;
 use yii\helpers\ArrayHelper;
 
 /**

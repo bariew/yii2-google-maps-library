@@ -4,10 +4,10 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\google\maps\layers;
+namespace bariew\google\maps\layers;
 
-use dosamigos\google\maps\ObjectAbstract;
-use dosamigos\google\maps\OptionsTrait;
+use bariew\google\maps\ObjectAbstract;
+use bariew\google\maps\OptionsTrait;
 use yii\helpers\ArrayHelper;
 use yii\web\JsExpression;
 
@@ -29,7 +29,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps\layers
+ * @package bariew\google\maps\layers
  */
 class KmlLayerOptions extends ObjectAbstract
 {

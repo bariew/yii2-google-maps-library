@@ -4,11 +4,11 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\google\maps\controls;
+namespace bariew\google\maps\controls;
 
-use dosamigos\google\maps\MapTypeId;
-use dosamigos\google\maps\ObjectAbstract;
-use dosamigos\google\maps\OptionsTrait;
+use bariew\google\maps\MapTypeId;
+use bariew\google\maps\ObjectAbstract;
+use bariew\google\maps\OptionsTrait;
 use yii\base\InvalidConfigException;
 use yii\helpers\ArrayHelper;
 use yii\web\JsExpression;
@@ -22,9 +22,9 @@ use yii\web\JsExpression;
  * [documentation](https://developers.google.com/maps/documentation/javascript/reference#MapTypeControlOptions) at Google.
  *
  * ```
- * use dosamigos\google\maps\controls\MapTypeControlOptions;
- * use dosamigos\google\maps\controls\MapTypeControlStyle;
- * use dosamigos\google\maps\Map;
+ * use bariew\google\maps\controls\MapTypeControlOptions;
+ * use bariew\google\maps\controls\MapTypeControlStyle;
+ * use bariew\google\maps\Map;
  *
  * $options = new MapTypeControlOptions(['style' => MapTypeControlStyle::DROPDOWN_MENU]);
  *
@@ -40,7 +40,7 @@ use yii\web\JsExpression;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps\controls
+ * @package bariew\google\maps\controls
  */
 class MapTypeControlOptions extends ObjectAbstract
 {

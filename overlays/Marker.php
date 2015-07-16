@@ -4,12 +4,12 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\google\maps\overlays;
+namespace bariew\google\maps\overlays;
 
-use dosamigos\google\maps\LatLng;
-use dosamigos\google\maps\LatLngBounds;
-use dosamigos\google\maps\OverlayTrait;
-use dosamigos\google\maps\Point;
+use bariew\google\maps\LatLng;
+use bariew\google\maps\LatLngBounds;
+use bariew\google\maps\OverlayTrait;
+use bariew\google\maps\Point;
 use yii\base\InvalidConfigException;
 use yii\base\InvalidParamException;
 use yii\helpers\ArrayHelper;
@@ -46,7 +46,7 @@ use yii\helpers\ArrayHelper;
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps
+ * @package bariew\google\maps
  */
 class Marker extends MarkerOptions
 {
@@ -84,7 +84,7 @@ class Marker extends MarkerOptions
         $js[] = "var {$this->getName()} = new google.maps.Marker({$this->getEncodedOptions()});";
 
         foreach ($this->events as $event) {
-            /** @var \dosamigos\google\maps\Event $event */
+            /** @var \bariew\google\maps\Event $event */
             $js[] = $event->getJs($this->getName());
         }
 

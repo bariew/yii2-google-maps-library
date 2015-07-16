@@ -42,18 +42,18 @@ Even though there will be plenty of examples on how to use it, here is one that 
 usage:
 
 ```php
-use dosamigos\google\maps\LatLng;
-use dosamigos\google\maps\services\DirectionsWayPoint;
-use dosamigos\google\maps\services\TravelMode;
-use dosamigos\google\maps\overlays\PolylineOptions;
-use dosamigos\google\maps\services\DirectionsRenderer;
-use dosamigos\google\maps\services\DirectionsService;
-use dosamigos\google\maps\overlays\InfoWindow;
-use dosamigos\google\maps\overlays\Marker;
-use dosamigos\google\maps\Map;
-use dosamigos\google\maps\services\DirectionsRequest;
-use dosamigos\google\maps\overlays\Polygon;
-use dosamigos\google\maps\layers\BicyclingLayer;
+use bariew\google\maps\LatLng;
+use bariew\google\maps\services\DirectionsWayPoint;
+use bariew\google\maps\services\TravelMode;
+use bariew\google\maps\overlays\PolylineOptions;
+use bariew\google\maps\services\DirectionsRenderer;
+use bariew\google\maps\services\DirectionsService;
+use bariew\google\maps\overlays\InfoWindow;
+use bariew\google\maps\overlays\Marker;
+use bariew\google\maps\Map;
+use bariew\google\maps\services\DirectionsRequest;
+use bariew\google\maps\overlays\Polygon;
+use bariew\google\maps\layers\BicyclingLayer;
 
 $coord = new LatLng(['lat' => 39.720089311812094, 'lng' => 2.91165944519042]);
 $map = new Map([
@@ -157,7 +157,7 @@ To configure the Google Map key or other options like language, version, library
 'components' => [
     'assetManager' => [
         'bundles' => [
-            'dosamigos\google\maps\MapAsset' => [
+            'bariew\google\maps\MapAsset' => [
                 'options' => [
                     'key' => 'this_is_my_key',
                     'language' => 'id',

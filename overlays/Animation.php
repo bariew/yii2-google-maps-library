@@ -4,19 +4,19 @@
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace dosamigos\google\maps\overlays;
+namespace bariew\google\maps\overlays;
 
 
 /**
  * Animation
  *
- * Animations that can be played on a marker. Use the setAnimation method on a [dosamigos\google\maps\overlays\Marker]
+ * Animations that can be played on a marker. Use the setAnimation method on a [bariew\google\maps\overlays\Marker]
  * or the animation option to play an animation.
  *
  * @author Antonio Ramirez <amigo.cobos@gmail.com>
  * @link http://www.ramirezcobos.com/
  * @link http://www.2amigos.us/
- * @package dosamigos\google\maps\overlays
+ * @package bariew\google\maps\overlays
  */
 class Animation
 {

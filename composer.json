@@ -1,5 +1,5 @@
 {
-    "name": "2amigos/yii2-google-maps-library",
+    "name": "bariew/yii2-google-maps-library",
     "description": "Google Maps API library for Yii2.",
     "keywords": ["yii", "extension", "library", "google", "maps"],
     "type": "yii-extension",
@@ -17,11 +17,12 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "guzzlehttp/guzzle": "3.*"
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\google\\maps\\": ""
+            "bariew\\google\\maps\\": ""
         }
     }
 }
